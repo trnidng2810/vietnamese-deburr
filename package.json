@@ -1,0 +1,22 @@
+{
+  "name": "vietnamese-deburr",
+  "version": "1.0.0",
+  "description": "Deburrs **vietnamese** string",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trnidng2810/vietnamese-deburr.git"
+  },
+  "author": "trnidng2810",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trnidng2810/vietnamese-deburr/issues"
+  },
+  "homepage": "https://github.com/trnidng2810/vietnamese-deburr#readme",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
