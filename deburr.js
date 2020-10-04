@@ -1,7 +1,10 @@
 const deburrLetter = require('./deburrLetter')
 
 /** Used to match Latin Unicode letters (excluding mathematical operators). */
-const reLatin = /[\xc0-\xd6\xd8-\xf6\xf8-\xff\u0100-\u017f]/g
+const reCommonLatin = '\xc0-\xd6\xd8-\xf6\xf8-\xff\u0100-\u017f'
+const reVietnameseLatin = '\u01a0\u01a1\u01af\u01b0\u1ea0-\u1ef9'
+
+const reLatin = RegExp(`[${reCommonLatin + reVietnameseLatin}]`, 'g')
 
 /** Used to compose unicode character classes. */
 const rsComboMarksRange = '\\u0300-\\u036f'

@@ -53,7 +53,34 @@ const deburredLetters = {
   '\u017a': 'z',  '\u017c': 'z', '\u017e': 'z',
   '\u0132': 'IJ', '\u0133': 'ij',
   '\u0152': 'Oe', '\u0153': 'oe',
-  '\u0149': "'n", '\u017f': 's'
+  '\u0149': "'n", '\u017f': 's',
+  // Vietnamese-Latin Extended-B block.
+  '\u01a0': 'O', '\u01a1': 'o',
+  '\u01af': 'U', '\u01b0': 'u',
+  // Vietnamese-Latin Extended Additional
+  '\u1ea0': 'A', '\u1ea1': 'a', '\u1ea2': 'A', '\u1ea3': 'a',
+  '\u1ea4': 'A', '\u1ea5': 'a', '\u1ea6': 'A', '\u1ea7': 'a',
+  '\u1ea8': 'A', '\u1ea9': 'a', '\u1eaa': 'A', '\u1eab': 'a',
+  '\u1eac': 'A', '\u1ead': 'a', '\u1eae': 'A', '\u1eaf': 'a',
+  '\u1eb0': 'A', '\u1eb1': 'a', '\u1eb2': 'A', '\u1eb3': 'a',
+  '\u1eb4': 'A', '\u1eb5': 'a', '\u1eb6': 'A', '\u1eb7': 'a',
+  '\u1eb8': 'E', '\u1eb9': 'e', '\u1eba': 'E', '\u1ebb': 'e',
+  '\u1ebc': 'E', '\u1ebd': 'e', '\u1ebe': 'E', '\u1ebf': 'e',
+  '\u1ec0': 'E', '\u1ec1': 'e', '\u1ec2': 'E', '\u1ec3': 'e',
+  '\u1ec4': 'E', '\u1ec5': 'e', '\u1ec6': 'E', '\u1ec7': 'e',
+  '\u1ec8': 'I', '\u1ec9': 'i', '\u1eca': 'I', '\u1ecb': 'i',
+  '\u1ecc': 'O', '\u1ecd': 'o', '\u1ece': 'O', '\u1ecf': 'o',
+  '\u1ed0': 'O', '\u1ed1': 'o', '\u1ed2': 'O', '\u1ed3': 'o',
+  '\u1ed4': 'O', '\u1ed5': 'o', '\u1ed6': 'O', '\u1ed7': 'o',
+  '\u1ed8': 'O', '\u1ed9': 'o', '\u1eda': 'O', '\u1edb': 'o',
+  '\u1edc': 'O', '\u1edd': 'o', '\u1ede': 'O', '\u1edf': 'o',
+  '\u1ee0': 'O', '\u1ee1': 'o', '\u1ee2': 'O', '\u1ee3': 'o',
+  '\u1ee4': 'U', '\u1ee5': 'u', '\u1ee6': 'U', '\u1ee7': 'u',
+  '\u1ee8': 'U', '\u1ee9': 'u', '\u1eea': 'U', '\u1eeb': 'u',
+  '\u1eec': 'U', '\u1eed': 'u', '\u1eee': 'U', '\u1eef': 'u',
+  '\u1ef0': 'U', '\u1ef1': 'u',
+  '\u1ef2': 'Y', '\u1ef3': 'y', '\u1ef4': 'Y', '\u1ef5': 'y',
+  '\u1ef6': 'Y', '\u1ef7': 'y', '\u1ef8': 'Y', '\u1ef9': 'y'
 }
 
 /**
